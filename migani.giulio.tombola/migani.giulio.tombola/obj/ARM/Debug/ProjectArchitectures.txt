@@ -1,1 +1,1 @@
-C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\migani.giulio.tombola.csproj;arm
+C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\migani.giulio.tombola.csproj;arm

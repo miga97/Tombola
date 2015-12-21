@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>89065c95-0058-402e-a6fa-db3b2552663c</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\migani.giulio.tombola.exe">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\migani.giulio.tombola.exe">
       <PackagePath>entrypoint\migani.giulio.tombola.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Giulio\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -339,52 +339,52 @@
     <AppxPackagedFile Include="C:\Users\Giulio\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\alberi_di_natale_00006.jpeg">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\alberi_di_natale_00006.jpeg">
       <PackagePath>alberi_di_natale_00006.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\migani.giulio.tombola.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\migani.giulio.tombola.xr.xml">
       <PackagePath>migani.giulio.tombola.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\Core\migani.giulio.tombola.exe">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\ARM\Debug\Core\migani.giulio.tombola.exe">
       <PackagePath>migani.giulio.tombola.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

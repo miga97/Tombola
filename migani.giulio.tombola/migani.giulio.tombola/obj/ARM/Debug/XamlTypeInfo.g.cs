@@ -132,7 +132,7 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "migani.giulio.tombola.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -142,8 +142,9 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
             _typeNameTable[6] = "Windows.UI.Xaml.Media.SolidColorBrush";
             _typeNameTable[7] = "System.Collections.Generic.Dictionary`2<String, Windows.UI.Xaml.Controls.Control>";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[9] = "Boolean";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::migani.giulio.tombola.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -153,6 +154,7 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
             _typeTable[6] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
             _typeTable[7] = typeof(global::System.Collections.Generic.Dictionary<global::System.String, global::Windows.UI.Xaml.Controls.Control>);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[9] = typeof(global::System.Boolean);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -220,6 +222,7 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
                 userType.AddMemberName("NumeriEstratti");
                 userType.AddMemberName("ColoreNumeriEstratti");
                 userType.AddMemberName("Bottoni");
+                userType.AddMemberName("WhiteFont");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -261,6 +264,10 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
             case 8:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 9:   //  Boolean
+                xamlType = new global::migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
             }
             return xamlType;
         }
@@ -296,6 +303,16 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
             var that = (global::migani.giulio.tombola.MainPage)instance;
             that.Bottoni = (global::System.Collections.Generic.Dictionary<global::System.String, global::Windows.UI.Xaml.Controls.Control>)Value;
         }
+        private object get_3_MainPage_WhiteFont(object instance)
+        {
+            var that = (global::migani.giulio.tombola.MainPage)instance;
+            return that.WhiteFont;
+        }
+        private void set_3_MainPage_WhiteFont(object instance, object Value)
+        {
+            var that = (global::migani.giulio.tombola.MainPage)instance;
+            that.WhiteFont = (global::System.Boolean)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -321,6 +338,12 @@ namespace migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo
                 xamlMember = new global::migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo.XamlMember(this, "Bottoni", "System.Collections.Generic.Dictionary`2<String, Windows.UI.Xaml.Controls.Control>");
                 xamlMember.Getter = get_2_MainPage_Bottoni;
                 xamlMember.Setter = set_2_MainPage_Bottoni;
+                break;
+            case "migani.giulio.tombola.MainPage.WhiteFont":
+                userType = (global::migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo.XamlUserType)GetXamlTypeByName("migani.giulio.tombola.MainPage");
+                xamlMember = new global::migani.giulio.tombola.migani_giulio_tombola_XamlTypeInfo.XamlMember(this, "WhiteFont", "Boolean");
+                xamlMember.Getter = get_3_MainPage_WhiteFont;
+                xamlMember.Setter = set_3_MainPage_WhiteFont;
                 break;
             }
             return xamlMember;

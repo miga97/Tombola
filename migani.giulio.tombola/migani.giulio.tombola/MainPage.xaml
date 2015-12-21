@@ -31,17 +31,7 @@
                 <TextBlock Grid.Row="2" FontSize="50" VerticalAlignment="Center" FontWeight="Bold">Estrazione Manuale :</TextBlock>
                 <ToggleSwitch Name="tglsAbilitazioneEstrazioneManuale" FontSize="50" Grid.Column="2" Grid.Row="2" Toggled="tglsAbilitazioneEstrazioneManuale_Toggled"/>
                 <TextBlock  VerticalAlignment="Center" Grid.Row="3" FontSize="50" FontWeight="Bold" Text="Colore dei Numeri Estratti :"/>
-                <ComboBox SelectedIndex="3" Name="cmbColore" VerticalAlignment="Center" FontSize="50" Grid.Column="2" Grid.Row="3" Background="#99000000">
-                    <ComboBoxItem>Arancione</ComboBoxItem>
-                    <ComboBoxItem>Azzurro</ComboBoxItem>
-                    <ComboBoxItem>Blu</ComboBoxItem>
-                    <ComboBoxItem>Giallo</ComboBoxItem>
-                    <ComboBoxItem>Marrone</ComboBoxItem>
-                    <ComboBoxItem>Nero</ComboBoxItem>
-                    <ComboBoxItem>Rosso</ComboBoxItem>
-                    <ComboBoxItem>Verde</ComboBoxItem>
-                    <ComboBoxItem>Viola</ComboBoxItem>
-                </ComboBox>
+                <ComboBox Name="cmbColore" VerticalAlignment="Center" FontSize="50" Grid.Column="2" Grid.Row="3" Background="#99000000" SelectionChanged="cmbColore_SelectionChanged"/>
             </Grid>
         </PivotItem>
         <PivotItem Header="Tombola" Name="PivotTombola" >
@@ -198,7 +188,7 @@
                 </Grid>
             </Grid>
         </PivotItem>
-        <PivotItem Header="Indecisioni" Name="PivotIndecisioni">
+        <PivotItem Header="Contesa Premio" Name="PivotIndecisioni">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -209,7 +199,7 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Foreground="White" TextWrapping="Wrap" FontWeight="Bold">Numero di persone che si condendono il premio :</TextBlock>
+                <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Foreground="White" TextWrapping="Wrap" FontWeight="Bold">Numero di persone che si contendono il premio :</TextBlock>
                 <ComboBox Name="cmbNumeroPersone" FontSize="50" SelectedIndex="0" Margin="50" Grid.Column="1" VerticalAlignment="Center" Foreground="White" Background="#B2000000">
                     <ComboBoxItem>2</ComboBoxItem>
                     <ComboBoxItem>3</ComboBoxItem>

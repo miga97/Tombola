@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>89065c95-0058-402e-a6fa-db3b2552663c</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>C68FD917D52B26DE8B4F70F4F903ACE482A52F49741C800B6D4B0521B4DCCA21</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3BFA2B338394CDCE4746803C2EEC3FADE62DF1EF4629705CF14C056646085920</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>89065c95-0058-402e-a6fa-db3b2552663c_1.0.0.0_x86__2t4pypynaqx8t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>89065c95-0058-402e-a6fa-db3b2552663c_2t4pypynaqx8t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>89065c95-0058-402e-a6fa-db3b2552663c</RegisteredPackageID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-18T07:25:54.235</Modified>
+      <Modified>2015-12-21T00:30:44.347</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\migani.giulio.tombola.exe">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\migani.giulio.tombola.exe">
       <PackagePath>entrypoint\migani.giulio.tombola.exe</PackagePath>
-      <Modified>2015-12-18T07:25:53.686</Modified>
+      <Modified>2015-12-21T00:30:43.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Giulio\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -454,63 +454,67 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-11-09T10:45:25.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\alberi_di_natale_00006.jpeg">
+      <PackagePath>alberi_di_natale_00006.jpeg</PackagePath>
+      <Modified>2015-12-18T08:10:33.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2015-12-17T22:57:43.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-12-17T22:57:31.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-10T20:09:42.000</Modified>
+      <Modified>2015-12-19T17:24:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-10-10T20:09:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\migani.giulio.tombola.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\migani.giulio.tombola.xr.xml">
       <PackagePath>migani.giulio.tombola.xr.xml</PackagePath>
-      <Modified>2015-12-18T07:25:36.742</Modified>
+      <Modified>2015-12-21T00:24:09.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2015-12-09T20:03:54.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-18T07:25:54.087</Modified>
+      <Modified>2015-12-21T00:30:43.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Giulio\exchange\Giulio\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\Core\migani.giulio.tombola.exe">
+    <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x86\Debug\Core\migani.giulio.tombola.exe">
       <PackagePath>migani.giulio.tombola.exe</PackagePath>
-      <Modified>2015-12-18T07:25:54.233</Modified>
+      <Modified>2015-12-21T00:30:44.345</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
