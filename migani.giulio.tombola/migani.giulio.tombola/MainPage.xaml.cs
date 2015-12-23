@@ -93,6 +93,8 @@ namespace migani.giulio.tombola
         {
             if (NumeriEstratti.Count > 0)
             {
+                if (NumeriEstratti.Count == 90)
+                    btnEstrai.Content = "Estrai Numero";
                 ColoraTabella(NumeriEstratti[NumeriEstratti.Count-1], false);
                 if (NumeriEstratti.Count > 1)
                     btnNumeroEstratto.Content = NumeriEstratti[NumeriEstratti.Count - 2];
@@ -129,7 +131,7 @@ namespace migani.giulio.tombola
                     btnNumeroPrecedente.Content = btnNumeroEstratto.Content;
 
                     #region Animazione
-                    btnNumeroEstratto.Background = new SolidColorBrush(Colors.White);                    
+                    btnNumeroEstratto.Background = new SolidColorBrush(Colors.White);
                     btnNumeroEstratto.Foreground = new SolidColorBrush(Colors.Black);
                     ripetizione = r.Next(50, 101);
                     for (int i = 0; i < ripetizione; i++)
@@ -141,8 +143,6 @@ namespace migani.giulio.tombola
                         else
                             btnNumeroEstratto.Content = numeroE.ToString();
                     }
-                    if (WhiteFont)
-                        btnNumeroEstratto.Foreground = new SolidColorBrush(Colors.White);
                     #endregion
                     do
                     {
@@ -232,7 +232,6 @@ namespace migani.giulio.tombola
             }
             ColoreNumeriEstratti = nuovoColore;
         }
-
         private void ColoraTabella(int decina, int unita, bool estratto)
         {
             if (estratto)
@@ -240,7 +239,10 @@ namespace migani.giulio.tombola
             else
                 Bottoni[decina.ToString() + unita.ToString()].Background = new SolidColorBrush(Colors.White);
             if (WhiteFont && estratto)
+            {
                 Bottoni[decina.ToString() + unita.ToString()].Foreground = new SolidColorBrush(Colors.White);
+                btnNumeroEstratto.Foreground = new SolidColorBrush(Colors.White);
+            }
             else
                 Bottoni[decina.ToString() + unita.ToString()].Foreground = new SolidColorBrush(Colors.Black);
         }
