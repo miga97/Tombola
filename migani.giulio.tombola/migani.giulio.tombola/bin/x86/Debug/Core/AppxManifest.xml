@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="89065c95-0058-402e-a6fa-db3b2552663c" Publisher="CN=Giulio" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="migani.giulio.tombola.Universal" Publisher="CN=Giulio" Version="1.0.12.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="89065c95-0058-402e-a6fa-db3b2552663c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>migani.giulio.tombola</DisplayName>
-    <PublisherDisplayName>Giulio</PublisherDisplayName>
+    <PublisherDisplayName>Giulio Migani</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -24,8 +24,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="migani.giulio.tombola.exe" EntryPoint="migani.giulio.tombola.App">
-      <uap:VisualElements DisplayName="migani.giulio.tombola" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="migani.giulio.tombola" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+      <uap:VisualElements DisplayName="Tombola di Natale" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="migani.giulio.tombola" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="Tombola"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />

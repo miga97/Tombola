@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-400"
+"ResourceDimensions"		"scale-400"
+
+[Files]
+"C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\obj\x86\Debug\split.scale-400.pri"			"resources.pri"
+"C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\obj\x86\Debug\PackageLayout\Assets\Wide310x150Logo.scale-400.png"			"Assets\Wide310x150Logo.scale-400.png"

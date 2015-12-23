@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-                        
+                         RequestedTheme="Dark"
+    
     >
 
     <Pivot x:ConnectionId='2' SelectedIndex="1" Name="pivotMain">
@@ -31,17 +32,7 @@
                 <TextBlock Grid.Row="2" FontSize="50" VerticalAlignment="Center" FontWeight="Bold">Estrazione Manuale :</TextBlock>
                 <ToggleSwitch x:ConnectionId='108' Name="tglsAbilitazioneEstrazioneManuale" FontSize="50" Grid.Column="2" Grid.Row="2"                                                    />
                 <TextBlock  VerticalAlignment="Center" Grid.Row="3" FontSize="50" FontWeight="Bold" Text="Colore dei Numeri Estratti :"/>
-                <ComboBox x:ConnectionId='109' SelectedIndex="3" Name="cmbColore" VerticalAlignment="Center" FontSize="50" Grid.Column="2" Grid.Row="3" Background="#99000000">
-                    <ComboBoxItem>Arancione</ComboBoxItem>
-                    <ComboBoxItem>Azzurro</ComboBoxItem>
-                    <ComboBoxItem>Blu</ComboBoxItem>
-                    <ComboBoxItem>Giallo</ComboBoxItem>
-                    <ComboBoxItem>Marrone</ComboBoxItem>
-                    <ComboBoxItem>Nero</ComboBoxItem>
-                    <ComboBoxItem>Rosso</ComboBoxItem>
-                    <ComboBoxItem>Verde</ComboBoxItem>
-                    <ComboBoxItem>Viola</ComboBoxItem>
-                </ComboBox>
+                <ComboBox x:ConnectionId='109' Name="cmbColore" VerticalAlignment="Center" FontSize="50" Grid.Column="2" Grid.Row="3" Background="#99000000"                                              />
             </Grid>
         </PivotItem>
         <PivotItem x:ConnectionId='4' Header="Tombola" Name="PivotTombola" >
@@ -198,7 +189,7 @@
                 </Grid>
             </Grid>
         </PivotItem>
-        <PivotItem x:ConnectionId='5' Header="Indecisioni" Name="PivotIndecisioni">
+        <PivotItem x:ConnectionId='5' Header="Contesa Premio" Name="PivotIndecisioni">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -209,7 +200,7 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Foreground="White" TextWrapping="Wrap" FontWeight="Bold">Numero di persone che si condendono il premio :</TextBlock>
+                <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50" Foreground="White" TextWrapping="Wrap" FontWeight="Bold">Numero di persone che si contendono il premio :</TextBlock>
                 <ComboBox x:ConnectionId='6' Name="cmbNumeroPersone" FontSize="50" SelectedIndex="0" Margin="50" Grid.Column="1" VerticalAlignment="Center" Foreground="White" Background="#B2000000">
                     <ComboBoxItem>2</ComboBoxItem>
                     <ComboBoxItem>3</ComboBoxItem>

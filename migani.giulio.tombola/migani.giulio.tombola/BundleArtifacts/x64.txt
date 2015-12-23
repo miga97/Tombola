@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x64\Debug\migani.giulio.tombola_1.0.12.0_x64_Debug.appx
+SymbolPackage=C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\AppPackages\migani.giulio.tombola_1.0.12.0_Debug_Test\migani.giulio.tombola_1.0.12.0_x64_Debug.appxsym

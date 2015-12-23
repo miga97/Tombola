@@ -10,25 +10,25 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>89065c95-0058-402e-a6fa-db3b2552663c</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\obj\x64\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>F52A0ED0AE7D0A003E70D8EDA187CB6E8622734DE4636923DDE2682DEE9B7FBF</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>89065c95-0058-402e-a6fa-db3b2552663c_1.0.11.0_x64__2t4pypynaqx8t</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>89065c95-0058-402e-a6fa-db3b2552663c_2t4pypynaqx8t!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>89065c95-0058-402e-a6fa-db3b2552663c</RegisteredPackageID>
+    <RegisteredManifestChecksum>BF54DC1F7C34C090199ACC918366E1D37AECF547430E1A508D6C24D6E0B94AFE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>migani.giulio.tombola.Universal_1.0.12.0_x64__2t4pypynaqx8t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>migani.giulio.tombola.Universal_2t4pypynaqx8t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>migani.giulio.tombola.Universal</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Giulio</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.11.0</RegisteredVersion>
+    <RegisteredVersion>1.0.12.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-23T08:25:41.407</Modified>
+      <Modified>2015-12-23T08:52:10.422</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x64\Debug\migani.giulio.tombola.exe">
       <PackagePath>entrypoint\migani.giulio.tombola.exe</PackagePath>
-      <Modified>2015-12-23T08:25:40.970</Modified>
+      <Modified>2015-12-23T08:49:26.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Giulio\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -515,11 +515,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-23T08:03:45.362</Modified>
+      <Modified>2015-12-23T08:52:10.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Giulio\GitHub\Tombola\migani.giulio.tombola\migani.giulio.tombola\bin\x64\Debug\Core\migani.giulio.tombola.exe">
       <PackagePath>migani.giulio.tombola.exe</PackagePath>
-      <Modified>2015-12-23T08:25:41.405</Modified>
+      <Modified>2015-12-23T08:52:10.418</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
